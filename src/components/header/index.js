@@ -1,5 +1,3 @@
 import Header from './component'
 
-export {
-    Header
-}
+export { Header }

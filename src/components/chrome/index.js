@@ -1,5 +1,3 @@
 import Chrome from './component'
 
-export {
-    Chrome
-}
+export { Chrome }

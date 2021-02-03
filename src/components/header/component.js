@@ -1,18 +1,7 @@
-import React from 'react';
-import {
-  Header,
-  HeaderItem,
-  HeaderItemIcon,
-  HeaderItemText
-} from '@zendeskgarden/react-chrome';
-import {
-  Dropdown,
-  Menu,
-  Item,
-  Separator,
-  Trigger
-} from '@zendeskgarden/react-dropdowns';
-import { ReactComponent as MenuIcon } from '@zendeskgarden/svg-icons/src/16/grid-2x2-stroke.svg';
+import React from 'react'
+import { Header, HeaderItem, HeaderItemIcon, HeaderItemText } from '@zendeskgarden/react-chrome'
+import { Dropdown, Menu, Item, Separator, Trigger } from '@zendeskgarden/react-dropdowns'
+import { ReactComponent as MenuIcon } from '@zendeskgarden/svg-icons/src/16/grid-2x2-stroke.svg'
 
 export default () => (
   <Header>
@@ -34,4 +23,4 @@ export default () => (
       </Menu>
     </Dropdown>
   </Header>
-);
+)
