@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "ES6",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+      "module": "commonjs",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+      "allowJs": true,                          /* Process & infer types from .js files. */
+      "jsx": "react",                           /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+      "noEmit": true,                           /* Do not emit outputs; allow Babel to transform files. */
+      "isolatedModules": true,                  /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
+
+      /* Strict Type-Checking Options */
+      "strict": true,                           /* Enable all strict type-checking options. */
+      "noImplicitAny": true,                    /* Raise error on expressions and declarations with an implied 'any' type. */
+      "strictNullChecks": true,                 /* Enable strict null checks. */
+      
+      /* Additional Checks */
+      "noUnusedLocals": true,                   /* Report errors on unused locals. */
+      "noUnusedParameters": true,               /* Report errors on unused parameters. */
+      "noImplicitReturns": true,                /* Report error when not all code paths in function return a value. */
+      
+      /* Module Resolution Options */
+      "moduleResolution": "node",               /* Search under node_modules for non-relative imports */
+      "baseUrl": ".",                           /* Base directory to resolve non-absolute module names. */
+      "paths": {                                /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+        "test-utils": ["./utils/test-utils"],
+        "@bootstrap/*": ["./src/*"],
+        "*": [
+          "*"
+        ]
+      },
+      "esModuleInterop": true                   /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+    },
+    "include": [
+      "*",
+      "src/**/*",
+      "typing/*",
+      "test/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "public"
+    ]
+  }
