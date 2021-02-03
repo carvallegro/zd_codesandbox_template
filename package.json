@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "integrations-best-practices-template",
+  "name": "zd_codesandbox_template",
   "description": "An example application for writing snippets on the Integrations Best Practices repository",
   "version": "0.0.0",
   "scripts": {
